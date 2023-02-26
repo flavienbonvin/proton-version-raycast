@@ -1,9 +1,9 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "proton-version",
-  "title": "Proton version",
+  "title": "Proton Version",
   "description": "Get the latest default and beta version number of Proton products",
-  "icon": "command-icon.png",
+  "icon": "command_icon.png",
   "author": "flavien.bonvin",
   "categories": [
     "Data",
@@ -13,20 +13,14 @@
   "commands": [
     {
       "name": "proton-version",
-      "title": "Proton version",
-      "description": "Get Proton products production and beta version number",
+      "title": "Proton Version",
+      "description": "Get Proton web products version number",
       "mode": "view"
     },
     {
       "name": "proton-version-beta",
-      "title": "Proton version beta",
-      "description": "Get Proton products beta versions number",
-      "mode": "view"
-    },
-    {
-      "name": "proton-version-prod",
-      "title": "Proton version prod",
-      "description": "Get Proton products production version number",
+      "title": "Proton Version Beta",
+      "description": "Get beta Proton web products version number",
       "mode": "view"
     }
   ],

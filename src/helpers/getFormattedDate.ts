@@ -5,5 +5,5 @@ export const getFormattedDate = (dateString?: string) => {
     return "Error while formatting the date";
   }
   const date = new Date(dateString);
-  return format(date, "MM-dd, hh:mm");
+  return format(date, "MMM dd @hh:mm");
 };
