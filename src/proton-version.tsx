@@ -10,7 +10,7 @@ const ProtonVersion = () => {
   const accountFetch = useFetch<Version>(PROTON_ACCOUNT_URL);
   const calendarFetch = useFetch<Version>(PROTON_CALENDAR_URL);
 
-  const isLoading = mailFetch.isLoading || calendarFetch.isLoading || driveFetch.isLoading || accountFetch.isLoading;
+  const isLoading = mailFetch.isLoading && calendarFetch.isLoading && driveFetch.isLoading && accountFetch.isLoading;
 
   return (
     <List isLoading={isLoading}>
